@@ -23,3 +23,7 @@ task hello {
         println 'Hello, Gradle!'
     }
 }
+
+test {
+    useJUnitPlatform() // if using JUnit 5
+}
