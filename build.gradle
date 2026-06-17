@@ -24,6 +24,3 @@ task hello {
     }
 }
 
-test {
-    useJUnitPlatform() // if using JUnit 5
-}
